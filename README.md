@@ -8,4 +8,6 @@
 (https://asciinema.org/a/iyHkAXtjK8F4sSTohgNwCSYVp)
 ### Asciinema for brain-gcd:
 (https://asciinema.org/a/6nC5wxrbXQ90vV6ubgMQBETkb)
+### Asciinema for brain-progression:
+(https://asciinema.org/a/Y0FPeCdCOrE0UU72jKmIeHdD4)
 
