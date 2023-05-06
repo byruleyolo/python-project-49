@@ -23,7 +23,8 @@ def main():
                 correct_answer = "yes"
             elif number % 2 != 0:
                 correct_answer = "no"
-            return print(f"'{yes_or_no}' is wrong answer ;(.correct answer was '{correct_answer}'\nLet's try again, {player_name}!")
+            print(f"'{yes_or_no}' is wrong answer ;(.correct answer was '{correct_answer}'")
+            return print("Let's try again, {player_name}!")
     return print(f'Congratulations, {player_name}!')
 
 
