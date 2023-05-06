@@ -1,10 +1,10 @@
 import prompt
 import random
-from brain_games.scripts.brain_games import not_main
+from brain_games.scripts.run import start_and_find_name
 
 
 def main():
-    player_name = not_main()
+    player_name = start_and_find_name()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     stage = 0
 
@@ -24,7 +24,7 @@ def main():
             elif number % 2 != 0:
                 correct_answer = "no"
             print(f"'{yes_or_no}' is wrong answer ;(.correct answer was '{correct_answer}'")
-            return print("Let's try again, {player_name}!")
+            return print(f"Let's try again, {player_name}!")
     return print(f'Congratulations, {player_name}!')
 
 

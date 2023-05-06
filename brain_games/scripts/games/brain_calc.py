@@ -1,10 +1,10 @@
 import prompt
 from random import randint, choice
-from brain_games.scripts.brain_games import not_main
+from brain_games.scripts.run import start_and_find_name
 
 
 def main():
-    player_name = not_main()
+    player_name = start_and_find_name()
     stage = 0
     print("What is the result of the expression?")
     while stage < 3:
