@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from brain_games.scripts.start import welcome
 from brain_games.scripts.games.prime import yes_or_no
 from brain_games.scripts.check import true_or_false

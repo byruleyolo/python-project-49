@@ -6,6 +6,7 @@ authors = ["Georgy Balakhonov <workbyruleyolo@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
 repository = "https://github.com/byruleyolo/python-project-49"
+classifiers = ["Programming Language :: Python :: 3.12"]
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
