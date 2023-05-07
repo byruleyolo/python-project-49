@@ -15,4 +15,6 @@ def operations():
         case "*":
             question = str(number_one) + "*" + str(number_two)
             result = str(number_one * number_two)
-    return question, result
+    number_one = str(number_one)
+    number_two = str(number_two)
+    return question, result, number_one, number_two, what_operate

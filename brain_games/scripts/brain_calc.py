@@ -9,8 +9,8 @@ def main():
     stage = 0
     print("What is the result of the expression?")
     while stage < 3:
-        question, result = operations()
-        print(f"Question: {question}")
+        question, result, number1, number2, operate = operations()
+        print(f"Question: {number1} {operate} {number2}")
         answer = prompt.string("Your answer: ")
         check = true_or_false(player_name, result, answer)
         if check is False:
