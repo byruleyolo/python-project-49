@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "five brain games"
+authors = ["Georgy Balakhonov <workbyruleyolo@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
+repository = "https://github.com/byruleyolo/python-project-49"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
@@ -15,7 +16,7 @@ brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
 
 [tool.poetry.dependencies]
-python = "3.12"
+python = "3.11"
 prompt = "^0.4.1"
 
 
