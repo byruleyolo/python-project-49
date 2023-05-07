@@ -16,8 +16,8 @@ brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
 
 [tool.poetry.dependencies]
-python = "3.12"
-prompt = { version = "^0.4.1", python = "3.12" }
+python = "^3.12"
+prompt = "^0.4.1"
 
 
 [tool.poetry.group.dev.dependencies]
