@@ -1,5 +1,6 @@
 from random import randint
 
+
 def parity():
     question = randint(0, 100)
     if question % 2 == 0:

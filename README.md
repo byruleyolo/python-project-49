@@ -10,4 +10,6 @@
 (https://asciinema.org/a/6nC5wxrbXQ90vV6ubgMQBETkb)
 ### Asciinema for brain-progression:
 (https://asciinema.org/a/Y0FPeCdCOrE0UU72jKmIeHdD4)
+### Asciinema for brain-prime:
+( https://asciinema.org/a/FaiZRwSfl4SuMjhnl96JcqH3f)
 

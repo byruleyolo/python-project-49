@@ -3,6 +3,7 @@ from brain_games.scripts.games.even import parity
 from brain_games.scripts.check import true_or_false
 import prompt
 
+
 def main():
     player_name = welcome()
     stage = 0
@@ -12,7 +13,7 @@ def main():
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")
         check = true_or_false(player_name, result, answer)
-        if check == False:
+        if check is False:
             return
         stage += 1
     return print(f'Congratulations, {player_name}!')
