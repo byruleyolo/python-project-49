@@ -13,7 +13,7 @@ def operations():
         list.append(str(first_number))
     missing = randint(0, 9)
     result = list[missing]
-    list[missing] = ".. "
+    list[missing] = ".."
     for i in list:
         question = question + i + " "
     return question, result
